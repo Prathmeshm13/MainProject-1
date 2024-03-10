@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "../App.css";
+import "../../App.css";
 
 function QuestionBox(props) {
   const [bgColors, setBgColors] = useState(Array(props.opt.length).fill(''));

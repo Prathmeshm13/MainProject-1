@@ -1,5 +1,6 @@
 import React from "react";
-import "../App.css"
+import "../../App.css"
+import "./foot.css"
 function Footer(){
     let k=new Date();
     let j=k.getFullYear();

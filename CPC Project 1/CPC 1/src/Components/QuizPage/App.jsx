@@ -1,8 +1,7 @@
 import { useState } from 'react'
-import Header from './Components/Header'
-import Footer from './Components/Footer'
-import QuestionBox from './Components/QuestionBox'
-import './App.css'
+import QuestionBox from './QuestionBox';
+import '../../App.css'
+import './quiz.css'
 function App(){
   const [score,setScore]=useState(0);
   const scoredata=(data)=>{
@@ -18,13 +17,9 @@ function App(){
   ));
   return (
     <>
-    <div className='maincont'>
-     <Header/>
      <div className='middle'>
      <div className='score'><h2>Score:{score}</h2></div>
      {questionitems}
-     </div>
-     <Footer/>
      </div>
     </>
   )

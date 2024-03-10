@@ -1,0 +1,11 @@
+.foot{
+    display: flex;
+    width: 100%;
+    color: aliceblue;
+    font-family:'Courier New', Courier, monospace;
+    align-items: center;
+    justify-content: center;
+    font-size: larger;
+    padding: 20px;
+    background-color:  #05386b;;
+  }

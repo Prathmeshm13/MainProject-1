@@ -1,7 +1,8 @@
 import React from "react";
-import "../App.css"
+import "../../App.css"
 import images from "./house-svgrepo-com (1).svg"
 import img2 from ".//profile-circle-svgrepo-com (1).svg"
+import "./head.css";
 function Header(){
     return(
     <>
