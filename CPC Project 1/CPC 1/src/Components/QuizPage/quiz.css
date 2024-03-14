@@ -65,3 +65,9 @@
     width: 100vw;
     height: 10px;
   }
+  .time{
+    display: flex;
+    font-family: 'Courier New', Courier, monospace;
+    padding-top: 5px;
+    color: aliceblue;
+  }

@@ -2,6 +2,7 @@ import { useState } from 'react'
 import QuestionBox from './QuestionBox';
 import '../../App.css'
 import './quiz.css'
+import Time from './Time';
 function App(){
   const [score,setScore]=useState(0);
   const scoredata=(data)=>{
@@ -9,7 +10,7 @@ function App(){
   }
   const questionitems=ques.questions.map(qitem=>(
     <>
-    {qitem.id === 1 ? <div className='gap'></div> : null}
+    {/* {qitem.id === 1 ? <div className='gap'></div> : null} */}
       <div className='gap'></div>
       <QuestionBox qcontent={qitem.question} id={qitem.id} opt={qitem.options} ans={qitem.answer} scfunc={scoredata}/>
       <div className='gap'></div>
@@ -19,6 +20,7 @@ function App(){
     <>
      <div className='middle'>
      <div className='score'><h2>Score:{score}</h2></div>
+     <Time/>
      {questionitems}
      </div>
     </>
