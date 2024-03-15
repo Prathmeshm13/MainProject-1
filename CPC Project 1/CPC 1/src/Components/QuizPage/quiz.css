@@ -15,8 +15,12 @@
   }
   .score{
     display: flex;
+    align-items: center;
+    justify-content: space-between;
     padding-top: 10px;
     font-family: 'Courier New', Courier, monospace;
+    min-width: 80vw;
+    height: 40px;
   }
   .questionBox{
     font-family: 'Courier New', Courier, monospace;
@@ -26,6 +30,7 @@
     height: 125px;
     width: 900px;
     background-color: white;
+    color: #05386b;
     border-radius: 10px;
   }
   .optionBox{
@@ -48,6 +53,7 @@
     justify-content: center;
     align-items: center;
     border-radius: 10px;
+    color: #05386b;
   }
   .singleop h2{
     font-family: 'Courier New', Courier, monospace;
@@ -70,4 +76,8 @@
     font-family: 'Courier New', Courier, monospace;
     padding-top: 5px;
     color: aliceblue;
+  }
+  .score>h2{
+    padding: 4px;
+    color: #05386b;
   }

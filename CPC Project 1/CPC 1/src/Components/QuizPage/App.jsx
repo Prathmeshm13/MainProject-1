@@ -19,8 +19,10 @@ function App(){
   return (
     <>
      <div className='middle'>
-     <div className='score'><h2>Score:{score}</h2></div>
+     <div className='score'><h2 className='inh2'>Score:{score}</h2>
      <Time/>
+     <button className='but'>Submit Test</button>
+     </div>
      {questionitems}
      </div>
     </>

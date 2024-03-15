@@ -3,13 +3,14 @@ import "../../App.css"
 import images from "./house-svgrepo-com (1).svg"
 import img2 from ".//profile-circle-svgrepo-com (1).svg"
 import "./head.css";
+import {Link} from "react-router-dom";
 function Header(){
     return(
     <>
         <div className="headcont">
-        <div className="homelogo"><img src={images} height={45}/></div>
+        <Link to=""><div className="homelogo"><img src={images} height={45}/></div></Link>
         <div className="heading">Quizzo</div>
-        <div className="myprofile"><img src={img2} height={45}></img></div>
+        <Link to="user"><div className="myprofile"><img src={img2} height={45}></img></div></Link>
         </div>
     </>
     )

@@ -13,7 +13,7 @@ function Time(){
     else{
         return(
             <>
-            <div className="time"><h2>Time's Up</h2></div>
+            <div className="time" style={{color:"red"}}><h2>Time's Up</h2></div>
             </>
         )
     }

@@ -1,10 +1,13 @@
 import React from "react";
 import "../../App.css"
+import "./myprofile.css"
 function Myprofile(){
     return(
     <>
     <div className="middle">
-        <h1>Myprofile</h1>
+        <div className="profilecard">
+
+        </div>
     </div>
     </>
     )

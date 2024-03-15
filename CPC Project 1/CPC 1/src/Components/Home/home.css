@@ -1,0 +1,39 @@
+.card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Courier New', Courier, monospace;
+    height: 200px;
+    width: 260px;
+    border-radius: 15px;
+    background-color: #8ee4af;
+    border: 1px solid white;
+    margin:20px
+}
+.cards{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 70%;
+}
+.but{
+    background-color: #05386b;
+    padding: 7px;
+    font-family: 'Courier New', Courier, monospace;
+    color: aliceblue;
+    font-weight: bold;
+    border: 2px solid white;
+    font-size: medium;
+    border-radius: 7px;
+}
+.but:hover{
+    padding: 9px;
+    cursor:pointer;
+    font-weight:700;
+    border: 2px solid white;
+    font-size:large;
+    border-radius: 7px;
+}
