@@ -7,6 +7,7 @@ import About from './Components/About/About.jsx';
 import Home from './Components/Home/Home.jsx';
 import QuestionBox from './Components/QuizPage/QuestionBox.jsx';
 import Myprofile from './Components/MyProfile/Myprofile.jsx';
+import Details from './Components/Details/Details.jsx';
 const router=createBrowserRouter(
   createRoutesFromElements(
     <Route path="/" element={<Layout/>}>
@@ -14,6 +15,7 @@ const router=createBrowserRouter(
     <Route path="about" element={<About/>}/>
     <Route path="quiz" element={<App/>}/>
     <Route path="user" element={<Myprofile/>}/>
+    <Route path="details" element={<Details/>}/>
     </Route>
   )
 )

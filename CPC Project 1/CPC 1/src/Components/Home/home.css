@@ -28,6 +28,7 @@
     border: 2px solid white;
     font-size: medium;
     border-radius: 7px;
+    margin: 10px;
 }
 .but:hover{
     padding: 9px;
